@@ -1,5 +1,5 @@
-.org $9D93
-	.db $BB,$6D
+.org $9d93
+	.db $bb,$6d
 
 Start:
 
