@@ -18,7 +18,8 @@ Start:
 
 ;-----Buffer-----
 
-screenBuffer:
+screenBuffer:    ; 20*20 Buffer
+    .db 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
 
 
