@@ -16,6 +16,9 @@ Start:
 
 
 
+;-----Buffer-----
+
+screenBuffer:
 
 
 
