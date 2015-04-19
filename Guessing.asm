@@ -2,7 +2,9 @@
     .db $bb,$6d
 
 Start:
-
+    ld hl, screenBuffer
+    ld a, 5
+    ld (hl), a
 
 
 
@@ -88,6 +90,9 @@ screenBufferStart:
 
 screenBufferLength:
     .db 768
+
+screenBufferPointer:
+    .db 20
 
 ;--------Data-------
 
