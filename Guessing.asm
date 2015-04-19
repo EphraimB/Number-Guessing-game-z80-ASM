@@ -19,6 +19,9 @@ Start:
 
 ;-----Buffer-----
 
+screenBufferStart:
+    .db 0
+
 screenBuffer:    ; 12*64 Buffer
     .db 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
     .db 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -85,14 +88,8 @@ screenBuffer:    ; 12*64 Buffer
     .db 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
     .db 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
-screenBufferStart:
-    .db 0
-
 screenBufferLength:
     .db 768
-
-screenBufferPointer:
-    .db 20
 
 ;--------Data-------
 
