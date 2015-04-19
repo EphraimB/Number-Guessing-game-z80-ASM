@@ -86,8 +86,8 @@ screenBuffer:    ; 12*64 Buffer
 screenBufferStart:
     screenBuffer+0
 
-screenBufferEnd:
-    screenBuffer+(12*64)
+screenBufferLength:
+    12*64
 
 ;--------Data-------
 
